@@ -4,7 +4,7 @@ from pydantic import (
     field_validator,
     model_validator,
     computed_field,
-)
+)# type:ignore
 from typing import List, Optional, Dict
 
 
